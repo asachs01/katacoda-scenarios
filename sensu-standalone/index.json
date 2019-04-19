@@ -11,7 +11,7 @@
     },
     "steps": [
       {
-        "title": "Test step",
+        "title": "Get started with Sensu",
         "text": "step1.md"
       }
     ],
@@ -21,7 +21,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mWelcome to the Sensu sandbox!\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
