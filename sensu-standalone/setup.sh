@@ -1,11 +1,4 @@
 #!/bin/sh
-# Set up the IP address variable for output at the end of the script
-IPADDR=$(/sbin/ip -o -4 addr list enp0s8  | awk '{print $4}' | cut -d/ -f1)
-
-# Install nano and set as default editor
-sudo yum install nano -y
-export EDITOR=nano
-
 # Install Sensu backend, agent, and sensuctl
 curl -s https://packagecloud.io/install/repositories/sensu/stable/script.rpm.sh | sudo bash
 sudo apt-get install sensu-go-backend sensu-go-agent sensu-go-cli -y
