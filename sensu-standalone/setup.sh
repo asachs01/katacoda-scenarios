@@ -1,6 +1,6 @@
 #!/bin/sh
 # Install Sensu backend, agent, and sensuctl
-curl -s https://packagecloud.io/install/repositories/sensu/stable/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/sensu/stable/script.deb.sh | sudo bash
 sudo apt-get install sensu-go-backend sensu-go-agent sensu-go-cli -y
 
 # Download and copy example configuration files
