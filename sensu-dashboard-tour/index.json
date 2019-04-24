@@ -13,6 +13,26 @@
       {
         "title": "Logging into the dashboard",
         "text": "step1.md"
+      },
+      {
+        "title": "Info at a glance",
+        "text": "step2.md"
+      },
+      {
+        "title": "The events tab",
+        "text": "step3.md"
+      },
+      {
+        "title": "The entities tab",
+        "text": "step4.md"
+      },
+      {
+        "title": "The checks tab",
+        "text": "step5.md"
+      },
+      {
+        "title": "The silences tab",
+        "text": "step6.md"
       }
     ],
     "finish": {
