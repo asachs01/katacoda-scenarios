@@ -1,6 +1,6 @@
 {
-  "title": "Tour the Sensu Dashboard",
-  "description": "In this lesson, we'll take a tour of the Sensu dashboard and get familiar with viewing and interactive with our Sensu deployment.",
+  "title": "Checks 101",
+  "description": "This lesson covers the basics of checks.",
   "difficulty": "beginner",
   "time": "5-10 minutes",
   "details": {
@@ -11,28 +11,16 @@
     },
     "steps": [
       {
-        "title": "Logging into the dashboard",
+        "title": "What is a check?",
         "text": "step1.md"
       },
       {
-        "title": "Info at a glance",
+        "title": "Dissecting a check.",
         "text": "step2.md"
       },
       {
-        "title": "The events tab",
+        "title": "Creating your first check.",
         "text": "step3.md"
-      },
-      {
-        "title": "The entities tab",
-        "text": "step4.md"
-      },
-      {
-        "title": "The checks tab",
-        "text": "step5.md"
-      },
-      {
-        "title": "The silences tab",
-        "text": "step6.md"
       }
     ],
     "finish": {
@@ -40,7 +28,6 @@
     }
   },
   "environment": {
-    "showdashboard": true,
     "dashboards": [{"name": "Sensu Dashboard", "port": 3000}],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mWelcome to the Sensu sandbox!\u001b[m\r\n"
