@@ -41,7 +41,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Display Sensu Dashboard on 3000", "port": 3000}],
+    "dashboards": [{"name": "Sensu Dashboard", "port": 3000}],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mWelcome to the Sensu sandbox!\u001b[m\r\n"
   },
