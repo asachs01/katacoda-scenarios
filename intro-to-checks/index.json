@@ -1,0 +1,39 @@
+{
+  "title": "Checks 101",
+  "description": "This lesson covers the basics of checks.",
+  "difficulty": "beginner",
+  "time": "5-10 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "courseData": "setup.sh",
+      "credits": ""
+    },
+    "steps": [
+      {
+        "title": "What is a check?",
+        "text": "step1.md"
+      },
+      {
+        "title": "Dissecting a check.",
+        "text": "step2.md"
+      },
+      {
+        "title": "Creating your first check.",
+        "text": "step3.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Sensu Dashboard", "port": 3000}],
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mWelcome to the Sensu sandbox!\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
